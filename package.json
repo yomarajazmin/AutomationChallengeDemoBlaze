@@ -1,0 +1,17 @@
+{
+  "name": "automationchallengeui-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "npx cypress run",
+    "test:api": "npx cypress run --spec cypress/e2e/api/**",
+    "test:ui": "npx cypress run --spec cypress/e2e/ui/**"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.6"
+  }
+}
